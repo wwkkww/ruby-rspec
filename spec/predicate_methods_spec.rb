@@ -9,6 +9,7 @@ RSpec.describe 'predicate methods and predicate matchers' do
     expect(15).to be_odd
     expect(0).to be_zero
     expect([]).to be_empty
+    expect({}).to be_empty
   end
 
   describe 0 do
